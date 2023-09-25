@@ -1,0 +1,140 @@
+.vertical-line{
+    border:1px solid grey;
+    height: 45px;
+}
+.location-bar>h4{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+.location-bar>p{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+   
+}
+.search-bar{
+    width: 35%;
+    padding: 0px 12px;
+    height: 46px;
+    
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    background: rgb(248, 248, 248);
+    color: rgb(130, 130, 130);
+   
+}
+
+.search-bar>input{
+    border: none;
+    width: 100%;
+    background: rgb(248, 248, 248);
+    color: rgb(130, 130, 130);
+}
+.mycart{
+    background-color: green !important;
+}
+
+.my-container{
+    margin: auto;
+    width: 95%;
+    overflow-x: auto;
+   
+}
+
+.my-list{
+    white-space: nowrap;
+}
+.my-list>img{
+    padding-inline: 10px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.my-card{
+    width: 179px;
+    margin-inline: 10px;
+}
+.my-card-time{
+    width: fit-content;
+    border-radius: 4px;
+    background-color: rgb(248,248,248);
+    padding: 0px 4px;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54,54);
+}
+.my-card-title{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.my-card-weight{
+    color: #898989;
+    font-size: 13px;
+}
+
+.my-card-price{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 11px;
+}
+
+.mrp{
+    color: #898989;
+    font-size: 13px;
+
+}
+.footer-3{
+    text-align: justify;
+    padding: 20px;
+}
+
+.footer-btn{
+    background-color: #213b50 !important;
+    color: #ffffff !important;
+}
+.footer-2{
+    padding: 10px;
+}
+.footer-2>p{
+    width: 30%;
+    text-align: justify;
+    color: #666666;
+    font-size: 12px;
+}
+
+.download-section>p{
+    color: #666666;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 16px;
+    border: none;
+    padding: 10px;
+}
+.download-btn{
+    background-color: #213b50;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.social-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1F1F1F;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-inline: 10px;
+
+}
+
